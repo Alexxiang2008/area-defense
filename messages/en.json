@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "products": "Products",
+    "cases": "Cases",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Secure What Matters Most",
+    "subtitle": "Advanced Area Defense & Air-Space-Ground Integrated Inspection Solutions for Critical Infrastructure Worldwide",
+    "cta": "Get a Quote"
+  },
+  "solutions": {
+    "title": "Solutions",
+    "energy": {
+      "title": "Energy Sector Defense",
+      "description": "Comprehensive perimeter protection for oil & gas facilities, refineries, and pipeline infrastructure."
+    },
+    "datacenter": {
+      "title": "Data Center Security",
+      "description": "Physical security solutions for hyperscale data centers against unauthorized access and drone threats."
+    },
+    "port": {
+      "title": "Port & Maritime Defense",
+      "description": "Coastal surveillance and critical port infrastructure protection systems."
+    },
+    "industrial": {
+      "title": "Industrial Inspection",
+      "description": "Autonomous巡检 solutions for high-risk industrial environments."
+    }
+  },
+  "products": {
+    "title": "Products",
+    "areaDefense": {
+      "title": "Area Defense Systems",
+      "description": "Perimeter intrusion detection, interception systems, and C2 command and control platforms."
+    },
+    "inspection": {
+      "title": "Air-Space-Ground Inspection",
+      "description": "4-UAVs-2-Dogs integrated inspection platform with AI analytics."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Request for Quote",
+    "name": "Full Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Your Requirements",
+    "submit": "Submit"
+  },
+  "footer": {
+    "copyright": "© 2026 Area Defense. All rights reserved."
+  }
+}
