@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import '../globals.css';
 
@@ -11,19 +11,19 @@ export const metadata: Metadata = {
   description: '专为中东极端环境设计的要地防卫与空天地一体化巡检解决方案',
 };
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
+
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   if (!locales.includes(locale as any)) notFound();
-
+  
+  setRequestLocale(locale);
   const messages = await getMessages();
 
   return (
