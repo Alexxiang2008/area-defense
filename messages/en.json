@@ -2,56 +2,60 @@
   "nav": {
     "solutions": "Solutions",
     "products": "Products",
-    "cases": "Cases",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
   },
   "hero": {
-    "title": "Secure What Matters Most",
-    "subtitle": "Advanced Area Defense & Air-Space-Ground Integrated Inspection Solutions for Critical Infrastructure Worldwide",
-    "cta": "Get a Quote"
+    "title": "Where Seconds Define Survival. We Define Zero-Failure.",
+    "subtitle": "专为中东极端环境定制的空天地一体化要地防卫方案。无惧 50°C+ 高温、高盐雾与沙暴挑战，将"非计划停机"风险降至零点。",
+    "cta": "Explore Our Solutions"
   },
-  "solutions": {
-    "title": "Solutions",
+  "interest": {
+    "title": "Built for the Four Critical Sectors of the Middle East",
     "energy": {
-      "title": "Energy Sector Defense",
-      "description": "Comprehensive perimeter protection for oil & gas facilities, refineries, and pipeline infrastructure."
+      "title": "能源厂 / 油田",
+      "desc": "无惧高温与沙尘，24/7 监测管道热成像，杜绝非计划停机"
     },
     "datacenter": {
-      "title": "Data Center Security",
-      "description": "Physical security solutions for hyperscale data centers against unauthorized access and drone threats."
+      "title": "数据中心",
+      "desc": "物理边界零盲区，100% Uptime 合规保障"
     },
     "port": {
-      "title": "Port & Maritime Defense",
-      "description": "Coastal surveillance and critical port infrastructure protection systems."
+      "title": "港口海防",
+      "desc": "无感知全天候天眼，极端天气下雷达光电联动"
     },
     "industrial": {
-      "title": "Industrial Inspection",
-      "description": "Autonomous巡检 solutions for high-risk industrial environments."
+      "title": "工业巡检",
+      "desc": "机器换人，AI 预测性维护，零伤亡"
     }
   },
-  "products": {
-    "title": "Products",
-    "areaDefense": {
-      "title": "Area Defense Systems",
-      "description": "Perimeter intrusion detection, interception systems, and C2 command and control platforms."
-    },
-    "inspection": {
-      "title": "Air-Space-Ground Inspection",
-      "description": "4-UAVs-2-Dogs integrated inspection platform with AI analytics."
-    }
+  "trust": {
+    "title": "Engineered for the Extremes. Built to Survive.",
+    "subtitle": "每一项参数都为中东极端战场环境而设计，量产即巅峰。",
+    "material": "装甲级外壳",
+    "temp": "极端温控",
+    "ip": "防护等级",
+    "chip": "核心组件"
+  },
+  "action": {
+    "title": "Secure Your Perimeter. Redefine Your Safety.",
+    "subtitle": "AeroTerra Dynamics 专家团队随时准备为您的要地量身定制防卫方案",
+    "cta": "Request a Consultation"
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Request for Quote",
+    "subtitle": "Request for Quotation",
     "name": "Full Name",
-    "company": "Company",
-    "email": "Email",
-    "phone": "Phone",
-    "message": "Your Requirements",
-    "submit": "Submit"
+    "company": "Company Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "country": "Country / Region",
+    "businessType": "Business Type",
+    "requirements": "Your Requirements",
+    "submit": "Submit Inquiry"
   },
   "footer": {
-    "copyright": "© 2026 Area Defense. All rights reserved."
+    "copyright": "© 2026 AeroTerra Dynamics. All rights reserved."
   }
 }

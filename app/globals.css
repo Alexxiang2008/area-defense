@@ -3,9 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+  /* ATD Brand Color Palette */
+  --atd-black: #0a0f1a;
+  --atd-slate: #1a2332;
+  --atd-steel: #2d3a4f;
+  --atd-amber: #f59e0b;
+  --atd-gold: #d97706;
+  --atd-sand: #c2a67a;
+
+  /* Legacy vars */
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 15, 26;
+  --background-end-rgb: 26, 35, 50;
 }
 
 html[dir="rtl"] {
@@ -16,8 +25,34 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
-      transparent,
+      rgb(var(--background-start-rgb)),
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    );
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--atd-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--atd-steel);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--atd-amber);
+}
+
+/* RTL support */
+[dir="rtl"] .rtl\:text-right {
+  text-align: right;
+}
+[dir="rtl"] .rtl\:flex-row-reverse {
+  flex-direction: row-reverse;
 }

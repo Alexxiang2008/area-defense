@@ -7,6 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        atd: {
+          black: '#0a0f1a',
+          slate: '#1a2332',
+          steel: '#2d3a4f',
+          amber: '#f59e0b',
+          gold: '#d97706',
+          sand: '#c2a67a',
+        },
         primary: {
           50: '#f0f9ff',
           100: '#e0f2fe',

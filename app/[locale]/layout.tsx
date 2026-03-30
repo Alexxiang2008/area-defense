@@ -7,8 +7,8 @@ import '../globals.css';
 const locales = ['en', 'ar'];
 
 export const metadata: Metadata = {
-  title: 'Area Defense | Advanced Security Solutions',
-  description: 'B2B安防解决方案 - 要地防卫与空天地一体化巡检',
+  title: 'AeroTerra Dynamics | 空天地一体化要地防卫',
+  description: '专为中东极端环境设计的要地防卫与空天地一体化巡检解决方案',
 };
 
 export function generateStaticParams() {
